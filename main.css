@@ -1,0 +1,67 @@
+﻿body {
+/*	background-color: #F5E6AB;*/
+	text-align:center;
+	color: #D2691E;
+	background-image: url(images/bg.png);
+	background-repeat: repeat;
+}
+canvas {
+	background-image:url(images/background.png);
+	width:800px;
+	height:480px;
+	margin:auto;
+	/*border-radius*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/*box-shadow*/
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+div {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#gamePanel {
+	width:1000px;
+	height:500px;
+	margin: auto;
+	/*border-radius*/
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/*box-shadow*/
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.button {
+	text-decoration: none;
+	border:#BB7777 solid thick;
+	margin: 5px;
+	text-shadow: rgba(255,255,255,.5) 0 1px 0;
+	color: #FF9999;
+	background-color: rgba(255,226,226,.7);
+	background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) ));
+	background-image: -moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%);
+	background-image: gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) ));
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.button:hover {
+	cursor: pointer;
+	background-color: #FFBDBD;
+}
+.button:active {
+	-webkit-transform: translateY(5px);
+	-moz-transform: translateY(5px);
+	transform: translateY(5px);
+}
+a {
+	text-decoration: none;
+	color: #FF9999;
+}
